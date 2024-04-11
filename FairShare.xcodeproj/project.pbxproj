@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BFDB70F42BC781B600A482A1 /* FairShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB70F32BC781B600A482A1 /* FairShareApp.swift */; };
-		BFDB70F62BC781B600A482A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB70F52BC781B600A482A1 /* ContentView.swift */; };
+		BFDB70F62BC781B600A482A1 /* FairShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB70F52BC781B600A482A1 /* FairShare.swift */; };
 		BFDB70F82BC781B800A482A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB70F72BC781B800A482A1 /* Assets.xcassets */; };
 		BFDB70FB2BC781B800A482A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB70FA2BC781B800A482A1 /* Preview Assets.xcassets */; };
 		BFDB71052BC781B800A482A1 /* FairShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB71042BC781B800A482A1 /* FairShareTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		BFDB70F02BC781B600A482A1 /* FairShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDB70F32BC781B600A482A1 /* FairShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairShareApp.swift; sourceTree = "<group>"; };
-		BFDB70F52BC781B600A482A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFDB70F52BC781B600A482A1 /* FairShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairShare.swift; sourceTree = "<group>"; };
 		BFDB70F72BC781B800A482A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFDB70FA2BC781B800A482A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFDB71002BC781B800A482A1 /* FairShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BFDB70F32BC781B600A482A1 /* FairShareApp.swift */,
-				BFDB70F52BC781B600A482A1 /* ContentView.swift */,
+				BFDB70F52BC781B600A482A1 /* FairShare.swift */,
 				BFDB70F72BC781B800A482A1 /* Assets.xcassets */,
 				BFDB70F92BC781B800A482A1 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDB70F62BC781B600A482A1 /* ContentView.swift in Sources */,
+				BFDB70F62BC781B600A482A1 /* FairShare.swift in Sources */,
 				BFDB70F42BC781B600A482A1 /* FairShareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
